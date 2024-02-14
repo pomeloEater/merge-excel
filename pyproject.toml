@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "merge-excel"
+version = "0.1.0"
+description = "Combine multiple excel files into a single excel file"
+authors = ["Park Jin Hui <jinhui.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
